@@ -87,3 +87,13 @@ variable "nat_gateway_tags" {
     default = {}
     type = map
 }
+
+variable "is_peering_required" {
+    type = bool
+    default = false
+}
+
+variable "default_vpc_id" {
+    type = string
+    default = null
+}
